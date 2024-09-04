@@ -19,7 +19,7 @@ let str = 'Hello';
 let num = 42;
 let boolean = true;
 
-console.log(typeof srt);
+console.log(typeof str);
 console.log(typeof num);
 console.log(typeof boolean);
 

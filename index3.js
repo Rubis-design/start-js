@@ -52,7 +52,7 @@ switch (day) {
     console.log('Суббота');
     break;
   case 7:
-    console.log('Суббота');
+    console.log('Воскресенье');
     break;
 }
 
@@ -78,7 +78,7 @@ switch (grade) {
 }
 
 //Приветствие по времени суток
-let hour = 7;
+let hour = 55;
 switch (true) {
   case hour >= 7 && hour <= 11:
     console.log('Доброе утро!');
@@ -92,11 +92,13 @@ switch (true) {
   case hour >= 0 && hour <= 6:
     console.log('Доброй ночи!');
     break;
+  default:
+    console.log('Время дня не известно');
 }
 
 //цикл for
 //Вывод чисел от 1 до 10
-for (let i = 0; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
 
